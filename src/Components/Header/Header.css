@@ -1,0 +1,62 @@
+header{
+
+width: 90%;
+height: 250px;
+background-color: rgb(218, 121, 205);
+position: relative;
+border-radius: 10px;
+background-image: url('fashion-3080644_1280.jpg');
+background-size:cover;
+margin-left: 6%;
+background-position-x: -140px;
+}
+header h1{
+    font-size: 30px;
+    font-family: 'Poiret One',cursive;
+    font-weight: bolder;
+    color:rgb(214, 197, 200);
+}
+
+/*ESTILOS DE FUENTE****************************************************/
+
+@font-face{
+
+ font-family:'Poiret One';
+ src: url('../Header/fonts/PoiretOne-Regular.ttf');
+}
+
+/*MEDIA QUERYS**********************************************/
+
+  @media (min-width: 2px) and (max-width: 170px) { 
+header{
+     background-position-x: 1%;
+  }
+}
+@media (min-width: 573px) and (max-width: 785px) { 
+    header h1{font-size: 40px;}
+    }
+@media (min-width: 785px) and (max-width: 3000px) { 
+    header h1{font-size: 70px;}
+       }
+@media (min-width: 653px) and (max-width: 791px) { 
+    header{
+         height: 300px;
+      }
+    }
+@media (min-width: 792px) and (max-width: 1373px) { 
+    header{
+             height: 500px;
+          }
+        }
+@media (min-width: 1373px) and (max-width: 3000px) { 
+    header{
+                 height: 800px;
+              }
+            }
+
+@media (min-width: 341px) and (max-width: 3000px) { 
+    header{
+         background-position-x: 20%;
+      }
+    }
+   

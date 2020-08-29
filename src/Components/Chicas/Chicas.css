@@ -1,0 +1,131 @@
+li{
+
+list-style: none;
+color:rgb(226, 166, 166);
+margin-top: -5px;
+
+
+}
+
+img{
+    width:90% ;
+    margin-top: 170px;
+   
+   
+}
+#modelos{
+    margin-top: 150px;
+    
+}
+
+input{
+
+
+    margin-top: 500px;
+    width: 100%;
+    border-radius: 15px;
+    height: 50px;
+    background: linear-gradient(90deg,rgb(172, 43, 161),rgb(64, 7, 70));
+    box-shadow: 5px 5px 10px rgb(114, 35, 129);
+    
+    }
+    
+    label{
+        font-weight: bolder;
+        color: rgb(221, 155, 229);
+        font-size: 12px;
+    }
+    
+    button{
+    
+    font-weight: bolder;
+    width: 90px;
+    height: 40px;
+    position: relative;
+    
+    }
+    ul{
+
+        margin-top:-20px;
+    }
+
+    .boton{
+
+    width:90%;
+    border-radius: 15px;
+    height:40px;
+    background-color:rgb(89, 5, 92);
+
+    }
+ 
+    .boton:active{
+
+        width:100%;
+        background-color:rgb(173, 47, 74);
+    }
+    .enviar{
+
+    
+        width:90%;
+        border-radius: 15px;
+        height:40px;
+        background-color:rgb(89, 5, 92);
+        margin-top: 30px;
+
+    }
+    .enviar:active{
+
+        width:100%;
+        background-color:rgb(173, 47, 74);
+
+
+    }
+   
+   
+
+
+    
+
+    @media (min-width: 0px) and (max-width: 400.98px) { 
+
+     label{font-size: 12px;}
+     input{height: 50px;}
+     .boton{height: 40px;}
+     .boton:active{height: 50px;}
+     .enviar{height: 40px;}
+     .enviar:active{height: 50px;}
+    }
+    
+
+    @media (min-width: 401px) and (max-width: 858px) {  
+
+        label{font-size: 16px;}
+        input{height: 50px;}
+        .boton{height: 40px;font-size:20px ;}
+        .boton:active{height: 50px;}
+        .enviar{height: 40px;font-size:20px}
+        .enviar:active{height: 50px;}
+
+    }
+    @media (min-width: 859px) and (max-width: 2000px) {  
+
+        label{font-size: 19px;}
+        input{height: 80px;}
+        .boton{height: 70px;font-size: 30px;}
+        .boton:active{height: 80px;}
+        .enviar{height: 70px;font-size:30px;}
+        .enviar:active{height: 80px;}
+
+    }
+
+    @media (min-width: 459px) and (max-width: 2000px) {  
+
+       li{
+           font-size: 90px;
+       }
+       
+
+    }
+       
+       
+   
